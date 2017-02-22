@@ -1,0 +1,33 @@
+{
+  "name": "electron-quick-start",
+  "version": "1.0.0",
+  "author": "yue.le",
+  "productName": "Simba Chart",
+  "description": "A minimal Electron application",
+  "private": true,
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "rebuild": "electron-rebuild -f -w sqlite3",
+    "packager": "electron-packager ./ tools --Win --x86 --out ./dist --overwrite --ignore=node_modules --ignore=render/simba-chart/build --ignore=render/simba-chart/config --ignore=render/simba-chart/node_modules --ignore=render/simba-chart/src --ignore=render/simba-chart/static --ignore=xxx --ignore=render/navgation/build --ignore=render/navgation/config --ignore=render/navgation/node_modules --ignore=render/navgation/src --ignore=render/navgation/static --ignore=xxx --ignore=render/simba-full-scan/build --ignore=render/simba-full-scan/config --ignore=render/simba-full-scan/node_modules --ignore=render/simba-full-scan/src --ignore=render/simba-full-scan/static"
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^1.4.1",
+    "electron-packager": "^8.5.1"
+  },
+  "dependencies": {
+    "bluebird": "^3.4.7",
+    "electron-prebuilt": "^1.4.13",
+    "electron-rebuild": "^1.5.6",
+    "sqlite3": "^3.1.8"
+  }
+}
