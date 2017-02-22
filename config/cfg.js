@@ -12,7 +12,7 @@ module.exports = function () {
                     width: 1024,
                     height: 600,
                     minWidth: 1024,
-                    minHeight: 600
+                    minHeight: 500
                 }
             }
         }
